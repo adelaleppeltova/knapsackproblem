@@ -1,0 +1,20 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS and Windows OS artifacts
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore misc editor swap files
+*.swp
+*.swo
