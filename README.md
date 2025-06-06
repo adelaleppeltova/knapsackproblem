@@ -1,14 +1,14 @@
 # Optimalizace batohového problému pomocí genetického algoritmu
 
-Tento projekt implementuje genetický algoritmus (GA) pro řešení klasického **0/1 batohového problému** v jazyce Python.
-Cílem je najít takovou kombinaci položek, která se vejde do batohu s omezenou kapacitou a zároveň maximalizuje celkovou hodnotu a efektivitu využití prostoru.
+Tento projekt implementuje genetický algoritmus (GA) pro řešení klasického **batohového problému**.
+Cílem je nalézt takovou kombinaci položek, která nepřekročí maximální povolenou hmotnost batohu, zároveň maximalizuje celkovou hodnotu a využije dostupný prostor co nejefektivněji.
 
 ## Použitý přístup
 
-- Genetický algoritmus (GA) inspirovaný evoluční biologií.
-- Reprezentace jedince: binární vektor.
+- Genetický algoritmus (GA) –
+- Reprezentace jedince: binární vektor, (např. [1, 0, 1, 1, 0])
 - Fitness funkce zohledňuje hodnotu a počet položek, penalizuje překročení hmotnosti.
-- Operace: selekce (ruletová), jednobodové křížení, mutace s nízkou pravděpodobností.
+- Operace: selekce, křížení, mutace s nízkou pravděpodobností.
 
 ## Parametry
 
@@ -26,14 +26,7 @@ Cílem je najít takovou kombinaci položek, která se vejde do batohu s omezeno
 - Celková hmotnost, hodnota a počet položek.
 - Binární reprezentace výsledku.
 
-## Literatura
-
-- Holland, J. H. (1975). _Adaptation in Natural and Artificial Systems_.
-- Goldberg, D. E. (1989). _Genetic Algorithms in Search, Optimization, and Machine Learning_.
-- Martello, S., & Toth, P. (1990). _Knapsack Problems: Algorithms and Computer Implementations_.
-- Mitchell, M. (1998). _An Introduction to Genetic Algorithms_.
-
 ---
 
 **Autor:** Bc. Adéla Leppeltová  
-**Fakulta informatiky a managementu, Univerzita Hradec Králové**
+**Fakulta informatiky a managementu, Univerzita Hradec Králové, 2025**
