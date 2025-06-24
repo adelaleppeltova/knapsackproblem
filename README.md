@@ -1,4 +1,9 @@
-# Optimalizace batohového problému pomocí genetického algoritmu
+# Optimalizace výběru položek do omezeného prostoru pomocí genetického algoritmu (knapsack problem)
+
+**Semestrální úkol předmětu VI1**
+**Autor:** Bc. Adéla Leppeltová  
+**Fakulta informatiky a managementu, Univerzita Hradec Králové**
+**Akademický rok: 2024/25**
 
 Tento projekt implementuje genetický algoritmus (GA) pro řešení klasického **batohového problému**.
 Cílem je nalézt takovou kombinaci položek, která nepřekročí maximální povolenou hmotnost batohu, zároveň maximalizuje celkovou hodnotu a využije dostupný prostor co nejefektivněji.
