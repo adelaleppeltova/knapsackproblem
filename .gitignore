@@ -1,20 +1,33 @@
-# Ignore Python cache and compiled files
+# Python cache a dočasné soubory
 __pycache__/
 *.py[cod]
+*.so
+*.pyd
+*.pyo
+*.swp
+*.bak
+*.tmp
+*.log
 
-# Ignore Jupyter Notebook checkpoints
+# IPython / Jupyter
 .ipynb_checkpoints/
+*.ipynb~  # záložní soubory
 
-# Ignore macOS and Windows OS artifacts
+# OS systémové soubory
 .DS_Store
 Thumbs.db
 
-# Ignore virtual environments
-venv/
-ENV/
+
+
+# Skryté metadata (např. VSCode)
+.vscode/
+.idea/
+
+# Virtuální prostředí (pokud používáš)
 env/
+venv/
 .venv/
 
-# Ignore misc editor swap files
-*.swp
-*.swo
+
+# Případné velké datové soubory
+/data/
