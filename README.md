@@ -5,10 +5,10 @@
 **Fakulta informatiky a managementu, Univerzita Hradec Králové** <br>
 **Akademický rok: 2024/25** <br>
 
-Tento projekt implementuje genetický algoritmus pro řešení klasického **batohového problému** (knapsack problem).
+Tento projekt implementuje genetický algoritmus pro řešení klasického **batohového problému** (knapsack problem). <br>
 Cílem je nalézt takovou kombinaci položek, která nepřekročí maximální povolenou hmotnost batohu, zároveň maximalizuje celkovou hodnotu a využije dostupný prostor co nejefektivněji.
 
-- Reprezentace jedince: binární vektor, (např. [1, 0, 1, 1, 0])
+- Reprezentace jedince: binární vektor, např. [1, 0, 1, 1, 0]
 - Fitness funkce zohledňuje hodnotu a počet položek, penalizuje překročení hmotnosti.
 - Operace: selekce, křížení, mutace s nízkou pravděpodobností.
 
