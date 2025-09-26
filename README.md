@@ -30,7 +30,8 @@ Projekt se nachází v Jupyter notebooku s názvem [genetic_knapsack_solver.ipyn
 - Celková hmotnost, hodnota a počet položek
 - Binární reprezentace výsledku
 
-Vizualizace výstupu
+## Vizualizace výstupu
+
 Graf zobrazuje vývoj pěti běhů algoritmu.
 
 osa X = číslo generace <br>
