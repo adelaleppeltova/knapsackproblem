@@ -29,3 +29,11 @@ Projekt se nachází v Jupyter notebooku s názvem [genetic_knapsack_solver.ipyn
 - Seznam vybraných položek, jejich váha a hodnota
 - Celková hmotnost, hodnota a počet položek
 - Binární reprezentace výsledku
+
+Vizualizace výstupu
+Graf zobrazuje vývoj pěti běhů algoritmu.
+
+osa X = číslo generace <br>
+osa Y = hodnota fitness v dané generaci
+
+![alt text](image.png)
